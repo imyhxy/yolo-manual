@@ -1,7 +1,8 @@
 # Collection of Train, Test and Deployment issues about YOLOv5
 
 
-### 参数初始化
+<detail>
+  <summary>参数初始化</summary>
 
 * `Conv2d`: 
 
@@ -18,3 +19,4 @@
           bound = 1 / math.sqrt(fan_in)
           init.uniform_(self.bias, -bound, bound)
   ```
+</detail>
